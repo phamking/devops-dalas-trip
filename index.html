@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devops Đà Lạt Trip - Day 1 Timeline</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, #0f172a, #1e293b);
+      color: white;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+    .timeline {
+      position: relative;
+      margin-left: 20px;
+      border-left: 3px solid rgba(255,255,255,0.2);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-left: 40px;
+      margin-bottom: 40px;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -11px;
+      top: 8px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #38bdf8;
+      border: 3px solid white;
+      box-shadow: 0 0 20px rgba(56,189,248,0.7);
+    }
+
+    .time {
+      color: #7dd3fc;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 18px;
+      padding: 22px;
+      backdrop-filter: blur(10px);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(125,211,252,0.5);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+
+    .title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .desc {
+      color: #cbd5e1;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(56,189,248,0.15);
+      color: #7dd3fc;
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin-right: 8px;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #7dd3fc;
+      text-decoration: none;
+    }
+
+    .footer {
+      margin-top: 60px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 30px;
+      }
+
+      .title {
+        font-size: 20px;
+      }
+
+      .timeline-item {
+        padding-left: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🌲 ĐÀ LẠT TRIP — DAY 1</h1>
+      <p>22/05 • Chill • Team Bonding • Nightlife nhẹ</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="time">16:00</div>
+        <div class="card">
+          <div class="title">🚗 Xuất phát vào trung tâm Đà Lạt</div>
+          <div class="desc">
+            Bắt đầu hành trình Day 1 với playlist chill Đà Lạt, warm-up mood cho cả team.
+          </div>
+          <span class="badge">Road Trip</span>
+          <span class="badge">Chill Music</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time">16:20</div>
+        <div class="card">
+          <div class="title">📍 Quảng Trường Lâm Viên / Hồ Xuân Hương</div>
+          <div class="desc" style="margin-bottom:8px;color:#7dd3fc;">
+            📌 Location: Quảng trường Lâm Viên, Trần Quốc Toản, Phường 1, Đà Lạt
+          </div>
+          <div class="desc">
+            Tập trung team, dạo hồ, chụp ảnh, tự sướng sống ảo 😆<br><br>
+            Có thể mua cafe hoặc sữa đậu nóng take-away để chill quanh hồ.
+          </div>
+          <span class="badge">Check-in</span>
+          <span class="badge">Team Photo</span>
+          <span class="badge">Sunset Vibes</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time">17:30</div>
+        <div class="card">
+          <div class="title">☕ Cafe Miền Du Mục</div>
+          <div class="desc" style="margin-bottom:8px;color:#7dd3fc;">
+            📌 Location: Hẻm 2 Đặng Thái Thân, Phường 3, Đà Lạt
+          </div>
+          <div class="desc">
+            View cực chill kiểu du mục, thích hợp nghỉ chân và ngắm chiều xuống Đà Lạt.
+            <br><br>
+            🔗 <a href="https://daodalat.com/mien-du-muc-da-lat/" target="_blank">Xem địa điểm</a>
+          </div>
+          <span class="badge">Coffee</span>
+          <span class="badge">Golden Hour</span>
+          <span class="badge">Relax</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time">18:40</div>
+        <div class="card">
+          <div class="title">🍻 Ăn tối & Nhậu nhẹ</div>
+          <div class="desc" style="margin-bottom:8px;color:#7dd3fc;">
+            📌 Options:
+            <br>🏮 Làng Vũ Thị — 1D Hoàng Hoa Thám, Phường 10
+            <br>🔥 Tiệm Nướng Đồi Nhà Đèn — Dốc Nhà Làng, Phường 11
+            <br>🍲 Lẩu Bò Nhà Gỗ - Đồi Dã Chiến — 1/29 Hoàng Diệu, Phường 5
+          </div>
+          <div class="desc">
+            Chọn một trong các địa điểm:
+            <ul style="margin-top:10px; margin-left:20px; line-height:1.8; color:#cbd5e1;">
+              <li>🏮 Làng Vũ Thị — vintage vibe</li>
+              <li>🔥 Tiệm Nướng Đồi Nhà Đèn — BBQ ngoài trời</li>
+              <li>🍲 Lẩu Bò Nhà Gỗ - Đồi Dã Chiến — đặc sản Đà Lạt</li>
+            </ul>
+          </div>
+          <span class="badge">Dinner</span>
+          <span class="badge">BBQ</span>
+          <span class="badge">Bonding</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time">21:00</div>
+        <div class="card">
+          <div class="title">🌃 Chợ Đêm Đà Lạt</div>
+          <div class="desc" style="margin-bottom:8px;color:#7dd3fc;">
+            📌 Location: Nguyễn Thị Minh Khai, Phường 1, Đà Lạt
+          </div>
+          <div class="desc">
+            Dạo chợ đêm, ăn vặt, shopping local, chụp ảnh đêm và tận hưởng vibe Đà Lạt.
+          </div>
+          <span class="badge">Street Food</span>
+          <span class="badge">Night Walk</span>
+          <span class="badge">Shopping</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time">22:00++</div>
+        <div class="card">
+          <div class="title">🍸 Optional — Bar/Pub nhẹ</div>
+          <div class="desc" style="margin-bottom:8px;color:#7dd3fc;">
+            📌 Suggested locations:
+            <br>🍸 Fox's Den — 56 Tăng Bạt Hổ
+            <br>🌫️ The Fog Bar — 76 Trương Công Định
+            <br>🎧 B21 — 68 Trương Công Định
+          </div>
+          <div class="desc">
+            Nếu còn sức 😆 có thể ghé:
+            <ul style="margin-top:10px; margin-left:20px; line-height:1.8; color:#cbd5e1;">
+              <li>Fox's Den — cozy cocktail</li>
+              <li>The Fog Bar — chill deep talk</li>
+              <li>B21 — vui hơn một chút</li>
+            </ul>
+          </div>
+          <span class="badge">Cocktail</span>
+          <span class="badge">Nightlife</span>
+          <span class="badge">Chill</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time">TBD</div>
+        <div class="card">
+          <div class="title">🏨 Về khách sạn nghỉ ngơi</div>
+          <div class="desc">
+            Kết thúc Day 1 và recharge năng lượng cho hành trình tiếp theo.
+          </div>
+          <span class="badge">Rest</span>
+          <span class="badge">Recharge</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      🌲 Đà Lạt Trip • Team nhỏ • Enjoy the moment
+    </div>
+  </div>
+</body>
+</html>
